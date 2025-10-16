@@ -26,6 +26,7 @@ public static String getSmallestAndLargest(String s, int k) {
         Scanner in = new Scanner(System.in);
         String s = in.next();
         int k = in.nextInt();
+        in.close();
         System.out.println(getSmallestAndLargest(s, k));
     }
 }

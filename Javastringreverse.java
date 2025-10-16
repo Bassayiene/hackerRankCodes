@@ -16,6 +16,7 @@ public class Javastringreverse {
             
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
+        sc.close();
 
         if (isPalindrome(A)){
             System.out.println("Yes");
