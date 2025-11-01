@@ -1,5 +1,3 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.Scanner;
 
 class MyPattern{
@@ -14,6 +12,6 @@ class MyPattern{
     }
 }
 class MyRegex {
-    final String pattern = "^((2[0-5][0-5]|1[0-9][0-9]|[1-9][0-9]|[0-9])\\.){3}(2[0-5][0-5]|1[0-9][0-9]|[1-9][0-9]|[0-9])";
+    final String pattern = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|0?[1-9][0-9]|0{0,2}[0-9])\\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|0?[1-9][0-9]|0{0,2}[0-9])";
 }
 //Write your code here
